@@ -18,3 +18,10 @@ export const askRiddle = function(riddleObj) {
     }
              
 }
+
+export const measureSolveTime = function(fn) {
+    const startTime = Date.now()
+    fn()
+    const endTime = Date.now()
+    return endTime - startTime
+}
