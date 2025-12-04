@@ -4,8 +4,9 @@ export function addSolveTime(player, seconds) {
 }
 
 export const measureSolveTime = function(fn) {
-    const startTime = Date.now()
+    let startTime = Date.now()
     fn()
-    const endTime = Date.now()
-    return endTime - startTime
+    let endTime = Date.now()
+    const beffor = endTime - startTime
+    return beffor /1000
 }
