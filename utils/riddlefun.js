@@ -1,4 +1,4 @@
-export const askRiddle = function(riddleObj) {
+export default askRiddle = function(riddleObj) {
     console.log(riddleObj.name)
     console.log(riddleObj.taskDescripaion)
     if(riddleObj.choices){
@@ -19,9 +19,3 @@ export const askRiddle = function(riddleObj) {
              
 }
 
-export const measureSolveTime = function(fn) {
-    const startTime = Date.now()
-    fn()
-    const endTime = Date.now()
-    return endTime - startTime
-}
