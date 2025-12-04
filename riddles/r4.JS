@@ -4,4 +4,4 @@ export default {
     difficulty:'HARD',
     taskDescripaion:'Where is Agmon Hula located?',
     correctAnswer:'Emek Hula'
-}
+};
