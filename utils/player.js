@@ -1,5 +1,5 @@
-import  input  from "analiza-sync"
-export const player = {
+
+export let player = {
     name:'',
     times:[]
 }
